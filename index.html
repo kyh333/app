@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>备忘录App</title>
+</head>
+
+<body>
+  <header>
+    <h1>备忘录</h1>
+  </header>
+  <main>
+    <section id="memo-section">
+      <textarea id="memo-textarea" placeholder="在此输入备忘录内容"></textarea>
+      <input type="file" id="image-upload" multiple accept="image/*">
+      <button id="save-button">保存备忘录</button>
+    </section>
+    <section id="saved-memos-section">
+      <h2>已保存的备忘录</h2>
+      <div id="saved-memos"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
